@@ -1,12 +1,15 @@
 {
   "name": "worker-server",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.mjs"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "http-server": "^0.12.3"
   }
 }
